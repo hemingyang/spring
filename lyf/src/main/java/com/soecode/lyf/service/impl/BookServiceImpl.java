@@ -76,4 +76,17 @@ public class BookServiceImpl implements BookService {
 		}
 	}
 
+	/* (non-Javadoc)
+	 * @see com.soecode.lyf.service.BookService#queryUser(long)
+	 */
+	/* (non-Javadoc)
+	 * @see com.soecode.lyf.service.BookService#queryUser(long)
+	 */
+	public Book queryUser(long bookId) {
+		
+		return bookDao.queryUser(bookId);
+		
+		
+	}
+
 }

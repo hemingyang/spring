@@ -33,5 +33,8 @@ public interface BookService {
 	 * @return
 	 */
 	AppointExecution appoint(long bookId, long studentId);
+	
+	
+	Book queryUser(long bookId);
 
 }

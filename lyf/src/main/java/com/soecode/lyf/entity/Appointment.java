@@ -1,11 +1,17 @@
 package com.soecode.lyf.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * 预约图书实体
  */
-public class Appointment {
+public class Appointment implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	private long bookId;// 图书ID
 

@@ -1,6 +1,5 @@
 package com.soecode.lyf.dao;
 
-import java.util.Date;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Param;
@@ -33,5 +32,19 @@ public interface BookDao {
 	 * @return 如果影响行数等于>1，表示更新的记录行数
 	 */
 	int reduceNumber(long bookId);
+	
+	/**
+	 * 方法说明：
+	
+	 *
+	 * Author：        hemin                
+	 * Create Date：   2019年5月31日 下午2:22:59
+	 * History:  2019年5月31日 下午2:22:59   hemin   Created.
+	 *
+	 * @param id
+	 * @return
+	 *
+	 */
+	Book   queryUser(Long id);
 
 }

@@ -1,9 +1,16 @@
 package com.soecode.lyf.entity;
 
+import java.io.Serializable;
+
 /**
  * 图书实体
  */
-public class Book {
+public class Book  implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	private long bookId;// 图书ID
 

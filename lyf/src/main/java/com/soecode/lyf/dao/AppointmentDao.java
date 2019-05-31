@@ -4,6 +4,10 @@ import org.apache.ibatis.annotations.Param;
 
 import com.soecode.lyf.entity.Appointment;
 
+/**
+ * @author hemin
+ *
+ */
 public interface AppointmentDao {
 
 	/**

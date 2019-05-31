@@ -1,0 +1,16 @@
+server:
+  port: 80
+
+spring:
+  mail:
+    host: smtp.outlook.com
+    username: hemingyangyang@outlook.com
+    password: outlookhmy79
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+

@@ -1,0 +1,14 @@
+server:
+  port: 9091
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hade?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: rootroot
+
+# Logger Config
+logging:
+  level:
+    com.baomidou.mybatisplus.samples.quickstart: debug
